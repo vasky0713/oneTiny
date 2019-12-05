@@ -1,10 +1,38 @@
    
+@media all and (max-width:500px){
+    .menu .menu__item{
+        margin-right: 15px ;
+        margin-left: 10px;
+    }
+
+   #features{
+       margin-bottom: 450px;
+   }
+   
+   .offer .offer__intro{
+       width: 350px;
+   }
+
+   .offer .offer__text{
+       width: 300px;
+   }
+
+   .feature {
+       margin-bottom: 200px;
+   }
+
+}
+
 header{
     background-color: #fcdb00;
     color:black;    
     padding-top: 60px;
     padding-bottom: 105px;
-}   
+} 
+body{
+    
+    background-color: #fcdb00;
+}  
 
 ul, li{
     display: block;
@@ -95,7 +123,12 @@ body{
 .title__features{
     text-align: center;
     padding-top: 100px;
+    background-color: white;
 
+}
+
+#features{
+    background-color: white;
 }
 
 .text__features{
